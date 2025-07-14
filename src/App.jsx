@@ -8,6 +8,7 @@ import WorkExperience from "./pages/Experience";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Articles from "./pages/Articles";
+import Connect from "./pages/Contact";
 
 const App = () => {
   return (
@@ -26,9 +27,15 @@ const App = () => {
         <Projects />
       </div>
 
-      <div>
+      {/* <div>
         <Articles />
+      </div> */}
+
+      <div>
+        <Connect />
       </div>
+
+
 
 
 

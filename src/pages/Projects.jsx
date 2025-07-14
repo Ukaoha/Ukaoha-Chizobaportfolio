@@ -11,7 +11,9 @@ const Projects = () => {
     <Element name="projects" className="bg-white py-10 px-5 md:px-20 lg:px-24">
       <div className="">
         <div className="text-center w-[90%] lg:w-[60%] mx-auto mb-10">
-          <h1 className="text-lg font-bold mb-4 bg-black text-white">My Projects</h1>
+          <button className="bg-black text-white px-6 py-3 mb-4  rounded-lg font-medium hover:bg-gray-800 transition-colors">
+            My Projects
+          </button>
           <h2 className="text-4xl font-bold mb-4">Check out my latest work</h2>
           <p className="text-gray-600 mb-8">
             I've worked on a variety of projects, either on contract, or in my leisure. From simple
