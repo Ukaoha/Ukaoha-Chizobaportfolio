@@ -1,5 +1,7 @@
 import React from 'react';
 import carmpus from '../assets/carmpus.png';
+import jojo from '../assets/jojos.png';
+
 import { FaGlobe } from 'react-icons/fa';
 import pan from '../assets/pan.png';
 import castellum from '../assets/castellum.png';
@@ -24,6 +26,38 @@ const Projects = () => {
 
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
+
+          {/* project 0 */}
+               <div className="border rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 cursor-pointer" onClick={(e) => e.currentTarget.classList.toggle('scale-110')}>
+            <img src={jojo} alt="Jojostyleshub project screenshot" className="w-full h-40 object-cover rounded-t-lg" />
+            <div className="p-4">
+              <h3 className="text-xl font-bold mb-2">Jojostyleshub</h3>
+              <p className="text-gray-600 text-xs mb-4">
+                Jojostyleshub is an Ecommerce platform for premuim quality fashion products, offering a seamless shopping experience with a wide range of stylish clothing and accessories for fashion enthusiasts. 
+              </p>
+              <div className="flex flex-wrap gap-1 mb-2">
+                <span className="bg-gray-200 rounded-full px-2 py-1 text-xs">Next.js</span>
+                <span className="bg-gray-200 rounded-full px-2 py-1 text-xs">TypeScript</span>
+                <span className="bg-gray-200 rounded-full px-2 py-1 text-xs">PHP/Laravel</span>
+                <span className="bg-gray-200 rounded-full px-2 py-1 text-xs">SQL</span>
+
+                <span className="bg-gray-200 rounded-full px-2 py-1 text-xs">AWS</span>
+
+
+              </div>
+              <div className="flex justify-between mt-4">
+                <a
+                  href="https://www.jojostyleshub.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:underline text-sm font-semibold flex items-center bg-black px-3 py-1 rounded"
+                >
+                  <FaGlobe className="mr-2" /> Website
+                </a>
+              </div>
+            </div>
+          </div>
+
           {/* Project 1 */}
           <div className="border rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 cursor-pointer" onClick={(e) => e.currentTarget.classList.toggle('scale-110')}>
             <img src={carmpus} alt="Carmpus project screenshot" className="w-full h-40 object-cover rounded-t-lg" />
@@ -40,7 +74,7 @@ const Projects = () => {
               </div>
               <div className="flex justify-between mt-4">
                 <a
-                  href="https://carmpus.ng/"
+                  href="https://dev.carmpus.ng/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white hover:underline text-sm font-semibold flex items-center bg-black px-3 py-1 rounded"

@@ -9,12 +9,18 @@ const WorkExperience = () => {
     {
       id: 1,
       company: "Ethnos",
-      role: "Frontend Engineer",
+      role: "Software Engineer",
       duration: "October 2024 - Present",
       shortDuration: "Oct 2024 - Present",
-      details: [
-        "Developed user-centric features to enhance functionality and user engagement.",
-        "Optimized application performance, resulting in improved load times and responsiveness.",
+      // details: [
+      //   "Developed user-centric features to enhance functionality and user engagement.",
+      //   "Optimized application performance, resulting in improved load times and responsiveness.",
+      //   "Collaborated with cross-functional teams to deliver high-quality software solutions aligned with business goals."
+      // ],
+
+         details: [
+        "Developed human risk management software , that enables employers to identify and mitigate human-related risks, enhancing organizational security and compliance.",
+        "Built features like phishing , smishing and vishing simulation security awareness training, and risk assessment tools to empower organizations in managing human risk effectively.",
         "Collaborated with cross-functional teams to deliver high-quality software solutions aligned with business goals."
       ],
       img: "./ethnoslogo.png",

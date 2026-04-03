@@ -12,7 +12,7 @@ const About = () => {
                         <div className="text-center md:text-left">
                             <h1 className="text-4xl md:text-5xl font-bold mb-4">Hi, I'm Chizoba 👋</h1>
                             <p className="text-2xl text-black font-meduim">
-                                Software Engineer | JavaScript | TypeScript.
+                                Software Engineer | JavaScript | TypeScript| PHP 
                             </p>
                         </div>
 
@@ -23,11 +23,12 @@ const About = () => {
 
                     <section className='px-4 pb-4'>
                         <h2 className='font-bold text-xl text-black'>About</h2>
-                        <p className='text-[#737373] font-meduim'>I am Ukaoha Chizoba , a Frontend engineer with over 4 years of
+                        <p className='text-[#737373] font-meduim'>I am Ukaoha Chizoba , a Software  engineer with over 4 years of
                             experience solving real world problems with technology.
-                            I have a diploma degree in software enginering and also Political science. Over the years I have specialized in
-                            building pixel perfect applications using JavaScript , Typescript, React , Next.js amongst other tools. I collaborate with a cross-functional
-                            team to build successful products that meets the needs of our clients. I pay attention to detail and pratice good code for better user experience and optimization. I have the ability to learn fast and I am currntly learning Node.js.
+                            I have a diploma degree in software enginering and also Political science. Over the years , I have specialized in building scalabel applications , knowing how to design systems that work , using my knowladge in systems design , PHP , Laravel , Next.js , Typescript , Docker to deploy solutions that solve people's problems.
+                            I love to build and 
+                        I  can collaborate with a cross-functional
+                            team to build successful products that meets the needs of our clients. I pay attention to detail and practice good code for better user experience and optimization. I have the ability to learn fast
                             In addition to my developer role , I love to write technical aticles , teaching what I know and helping others.
                             <div className=""></div>
 
