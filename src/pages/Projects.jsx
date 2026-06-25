@@ -7,6 +7,7 @@ import pan from '../assets/pan.png';
 import castellum from '../assets/castellum.png';
 import kc from '../assets/kc.png';
 import up from '../assets/up.png';
+import aquila from '../assets/aquila.png';
 import { Element } from 'react-scroll';
 const Projects = () => {
   return (
@@ -59,6 +60,37 @@ const Projects = () => {
           </div>
 
           {/* Project 1 */}
+
+
+              <div className="border rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 cursor-pointer" onClick={(e) => e.currentTarget.classList.toggle('scale-110')}>
+            <img src={aquila} alt="Aquila project screenshot" className="w-full h-40 object-cover rounded-t-lg" />
+            <div className="p-4">
+              <h3 className="text-xl font-bold mb-2">Aquila</h3>
+              <p className="text-gray-600 text-xs mb-4">
+Aquila is a high-performance Cybersecurity-as-a-Service (SaaS)
+ platform that empowers organizations to scan, protect, 
+ and remediate application vulnerabilities. It  integrates 
+ advanced Static and Dynamic analysis (SAST/DAST), enabling developers to secure mobile binaries (APK/IPA) against modern threats like reverse engineering and injection attacks.
+
+              </p>
+              <div className="flex flex-wrap gap-1 mb-2">
+                <span className="bg-gray-200 rounded-full px-2 py-1 text-xs">Next.js</span>
+                <span className="bg-gray-200 rounded-full px-2 py-1 text-xs">TypeScript</span>
+                <span className="bg-gray-200 rounded-full px-2 py-1 text-xs">Tailwind css </span>
+              </div>
+              <div className="flex justify-between mt-4">
+                <a
+                  href="https://app.aquilasec.io/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:underline text-sm font-semibold flex items-center bg-black px-3 py-1 rounded"
+                >
+                  <FaGlobe className="mr-2" /> Website
+                </a>
+              </div>
+            </div>
+          </div>
+
           <div className="border rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 cursor-pointer" onClick={(e) => e.currentTarget.classList.toggle('scale-110')}>
             <img src={carmpus} alt="Carmpus project screenshot" className="w-full h-40 object-cover rounded-t-lg" />
             <div className="p-4">
